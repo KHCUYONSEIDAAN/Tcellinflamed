@@ -12,11 +12,11 @@ Established gene signatures were referenced by Gajewski T cell-inflamed signatur
 <br> library(Tcellinflamed)
 <br> setwd("C:\\Tcellinflamed\\")
 <br> # Users can extract T cell effector gene subset 
-<br> inputfile<-read.csv("D:\\Tcellinflamed\\TCGA-LUAD_tumoronly_lcpm.csv")
+<br> inputfile<-read.csv("C:\\Tcellinflamed\\TCGA-LUAD_tumoronly_lcpm.csv")
 <br> CTL<-c("GZMA","PRF","GZMB","PRF1","EOMES","IFNG","TNF","CXCL9","CXCL10","CD8A","CD4","FOXP3","ICOS","CTLA4","IRF1","CCL2","CCL3","CCL4","GZMK","HLA.DMA","HLA.DMB","HLA.DOA","HLA.DOB","CCL5","CD27","CD274","PDCD1LG2","CD276","CMKLR1","CXCR6","HLA.DQA1","HLA.DRB1","HLA.E","IDO1","LAG3","NKG7","PSMB10","STAT1","TIGIT")
 <br> Tcellgene<-inputfile$Gene %in% CTL
 <br> inputfilelist<-inputfile[Tcellgene,]
-<br> write.csv(inputfilelist,"D:\\Tcellinflamed\\inputfile_example.csv",row.names=FALSE)
+<br> write.csv(inputfilelist,"C:\\Tcellinflamed\\inputfile_example.csv",row.names=FALSE)
 <br> inputfilelist<-read.csv("C:\\Tcellinflamed\\inputfile_example.csv")
 <br> Tcellinflamed_Function(Inputfile, Numberofgenes)
 <br> # How can extract T cell inflamed subset(Tcellinflamed_Function input) in your expression file 

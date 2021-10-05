@@ -11,7 +11,7 @@ You can simply use log CPM file(csv) which contains T cell relative Genes(row na
 
 
 # Numberofgenes	
-You can write number of testing genes (upper T cell relative genes).
+You can write number of testing genes (upper T cell relative genes). For example, R code is nrow(inputfilelist)
 
 # Author(s)
 San-Duk Yang, Hyun-Seok Park, Sun-Min Lim, Byoung Chul Cho (Yonsei Cancer Research Institute, DAAN Therapeutics)

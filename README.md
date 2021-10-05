@@ -15,7 +15,7 @@ A major issue in immune checkpoint inhibitor is a lack of efficacy. Previous stu
 
 # Inputfile	
 Users can simply use log CPM file(csv) which contains T cell relative Genes(row name) and it's expressions
-<br> Example file is available in the https://github.com/KHCUYONSEIDAAN/Tcellinflamed/ 
+<br> Example file is available in the https://github.com/KHCUYONSEIDAAN/Tcellinflamed/blob/main/inputfile_example.csv
 <br> Using nrow(inputfile) code, users can easily generate the result files. or users can write number of testing genes (T cell relative genes). 
 
 # Author(s)

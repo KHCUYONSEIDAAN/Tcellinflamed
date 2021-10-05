@@ -3,21 +3,22 @@ A major issue in immune checkpoint inhibitor is a lack of efficacy. Previous stu
 
 
 # Installation and Usage
-library(devtools)
+<br> library(devtools)
 <br> library(Tcellinflamed)
 
 <br> setwd("C:\\Tcellinflamed\\")
-inputfilelist<-read.csv("C:\\Tcellinflamed\\inputfile_example.csv")
+<br> inputfilelist<-read.csv("C:\\Tcellinflamed\\inputfile_example.csv")
 
-install.packages("C:\\Tcellinflamed\\Tcellinflamed.tar.gz",repos=NULL, type="source") # you can download the Tcellinflamed.tar.gz file in your local pc
-library(Tcellinflamed)
-Tcellinflamed_Function(Inputfile, Numberofgenes)
+<br> install.packages("C:\\Tcellinflamed\\Tcellinflamed.tar.gz",repos=NULL, type="source") 
+<br> # you can download the Tcellinflamed.tar.gz file in your local pc folder
+<br> library(Tcellinflamed)
+<br> Tcellinflamed_Function(Inputfile, Numberofgenes)
 
 
 # Inputfile	
 Users can simply use log CPM file(csv) which contains T cell relative Genes(row name) and it's expressions
-Example file is available in the https://github.com/KHCUYONSEIDAAN/Tcellinflamed/ 
-Using nrow(inputfile) code, users can easily generate the result files. or users can write number of testing genes (T cell relative genes). 
+<br> Example file is available in the https://github.com/KHCUYONSEIDAAN/Tcellinflamed/ 
+<br> Using nrow(inputfile) code, users can easily generate the result files. or users can write number of testing genes (T cell relative genes). 
 
 # Author(s)
 San-Duk Yang, Hyun-Seok Park, Sun-Min Lim, Byoung Chul Cho (Yonsei Cancer Research Institute, DAAN Therapeutics)

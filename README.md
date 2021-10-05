@@ -4,9 +4,9 @@ A major issue in immune checkpoint inhibitor is a lack of efficacy. Previous stu
 
 # Installation and Usage
 library(devtools)
-library(Tcellinflamed)
+<br> library(Tcellinflamed)
 
-setwd("C:\\Tcellinflamed\\")
+<br> setwd("C:\\Tcellinflamed\\")
 inputfilelist<-read.csv("C:\\Tcellinflamed\\inputfile_example.csv")
 
 install.packages("C:\\Tcellinflamed\\Tcellinflamed.tar.gz",repos=NULL, type="source") # you can download the Tcellinflamed.tar.gz file in your local pc

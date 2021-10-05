@@ -4,7 +4,7 @@ A major issue in immune checkpoint inhibitor is a lack of efficacy. Previous stu
 # Tcell inflamed relative gene signature 
 Established gene signatures were referenced by Gajewski T cell-inflamed signature, IFN-gamma related signature, T cell effector signature and Immune cytolytic activity signature(Luke et al., 2019)(Spranger et al., 2016). 
 
-# Installation and Usage
+# Installation and example usage
 <br> library(devtools)
 <br> library(Tcellinflamed)
 <br> # Users can download Tcellinflamed_Function: https://github.com/KHCUYONSEIDAAN/Tcellinflamed/blob/main/Tcellinflamed.tar.gz 

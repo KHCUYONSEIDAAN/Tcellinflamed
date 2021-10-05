@@ -1,11 +1,13 @@
 # Tcellinflamed
 A major issue in immune checkpoint inhibitor is a lack of efficacy. Previous studies reported that T cell inflamed signature can help to predict immunotherapy response. Many studies have been conducted to investigate mechanisms of immunotherapy resistance by defining tumor microenvironment as T cell inflamed and non-T cell inflamed subsets. Although calculation method of T cell inflamed subsets exists, valid screening tools for distinguishing T cell inflamed from non-T cell inflamed subsets using gene expression data are still needed. Previous studies suggested that scoring method which distinguish non-T cell inflamed, T cell inflamed and intermediate based on gene expression data(Luke et al., 2019)(Spranger et al., 2016). However, general researchers who are unfamiliar with detailed calculation of equation can have analysis difficulties in using scoring formula. In this reason, we recently developed R package that predict T cell inflamed tumors with RNA seq expression data. Tcellinflamed_Function is the first package to detect T cell inflamed subset to help interpret cancer gene expression data. This package will be beneficial to distinguish T cell inflamed hot tumor and Non-T cell inflamed cold tumor to optimize selection of right patients who will benefit from ICIs. This package will be beneficial to distinguish T cell inflamed hot tumor and Non-T cell inflamed cold tumor to optimize selection of right patients who will benefit from ICIs.  
 
+# Tcell inflamed relative gene signature 
+Established gene signatures were referenced by Gajewski T cell-inflamed signature, IFN-gamma related signature, T cell effector signature and Immune cytolytic activity signature(Luke et al., 2019)(Spranger et al., 2016). 
 
 # Installation and Usage
 <br> library(devtools)
 <br> library(Tcellinflamed)
-<br> # Users can download https://github.com/KHCUYONSEIDAAN/Tcellinflamed/blob/main/Tcellinflamed.tar.gz package file in your local pc folder
+<br> # Users can download Tcellinflamed_Function: https://github.com/KHCUYONSEIDAAN/Tcellinflamed/blob/main/Tcellinflamed.tar.gz 
 <br> install.packages("C:\\Tcellinflamed\\Tcellinflamed.tar.gz",repos=NULL, type="source") 
 <br> library(Tcellinflamed)
 <br> setwd("C:\\Tcellinflamed\\")
@@ -20,8 +22,6 @@ A major issue in immune checkpoint inhibitor is a lack of efficacy. Previous stu
 <br> inputfilelist<-read.csv("C:\\Tcellinflamed\\inputfile_example.csv")
 <br> Tcellinflamed_Function(Inputfile, Numberofgenes)
 <br> # How can extract T cell inflamed subset(Tcellinflamed_Function input) in your expression file 
-
-
 
 
 # Inputfile	

@@ -12,4 +12,4 @@ You can write number of testing genes (upper T cell relative genes).
 San-Duk Yang, Hyun-Seok Park, Sun-Min Lim, Byoung Chul Cho (Yonsei Cancer Research Institute, DAAN Therapeutics)
 
 # Examples
-Tcellinflamed_Function(a.csv,nrow(inputfilelist))
+Tcellinflamed_Function(a.csv,nrow(inputfile))

@@ -13,4 +13,3 @@ San-Duk Yang, Hyun-Seok Park, Sun-Min Lim, Byoung Chul Cho (Yonsei Cancer Resear
 
 # Examples
 Tcellinflamed_Function(a.csv,nrow(inputfilelist))
-Tcellinflamed_Function(b.csv,7)

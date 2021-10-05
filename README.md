@@ -17,10 +17,7 @@ Tcellinflamed_Function(Inputfile, Numberofgenes)
 # Inputfile	
 Users can simply use log CPM file(csv) which contains T cell relative Genes(row name) and it's expressions
 Example file is available in the https://github.com/KHCUYONSEIDAAN/Tcellinflamed/ 
-
-
-# Numberofgenes	
- Using nrow(inputfile) code, users can easily generate the result files. or users can write number of testing genes (T cell relative genes). 
+Using nrow(inputfile) code, users can easily generate the result files. or users can write number of testing genes (T cell relative genes). 
 
 # Author(s)
 San-Duk Yang, Hyun-Seok Park, Sun-Min Lim, Byoung Chul Cho (Yonsei Cancer Research Institute, DAAN Therapeutics)
